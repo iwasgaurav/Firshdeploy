@@ -1,0 +1,65 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("img/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    opacity: 0.65;
+	border-radius: 12%;
+    background-color: black;
+    border: 18px solid black;
+    color: antiquewhite;
+    position: absolute;
+    top:10%;
+    right:8%;
+} 
+.container h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: inline;
+    font-size: 38px;
+    margin-bottom: 90px 0;
+    padding: 13px;
+}
+.box{
+    width: 100%;
+    border-bottom: 1px solid white ;
+    margin: 18px 0;
+    border-width: 80%;
+}
+.box input{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: beige;
+    background: none;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    width: 80%;
+    margin: 12px 0;
+    
+}
+.box i{
+    padding: 0 12px;
+    size: 25px;
+}
+.btn{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    outline: none;
+    width: auto;
+    margin: 12px 0;
+    padding: 6px 20px;
+    border-radius: 12px;
+    font-size: 22px;
+    color: white;
+    margin-left: 60%;
+    background: none; 
+}
+.btn:hover{
+    background: white;
+    color: rgb(18, 133, 209);
+    opacity: 0.8;
+}
